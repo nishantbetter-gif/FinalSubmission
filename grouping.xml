@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<listeners>
+        <listener class-name="com.automation.v1.utilities.ListenerImplementation"/>
+    </listeners>
+  <test thread-count="5" name="TestChrome">
+  
+  
+  <groups>
+  <include name="Sanity"/>
+  </groups>
+  
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+      <class name="com.automation.v1.utilities.DropDownActions"/>
+      <class name="com.automation.v1.testscript.CheckBoxTest"/>
+      <class name="com.automation.v1.testscript.DropDownTest"/>
+      <class name="com.automation.v1.testscript.BaseAuthLinkTest"/>
+      <class name="com.automation.v1.testscript.TestScript"/>
+      <class name="com.automation.v1.testscript.AddRemoveElementTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="TestFirefox">
+  
+  <groups>
+  <include name="Sanity"/>
+  </groups>
+  
+  <parameter name="browser" value="Firefox"/> 
+    <classes>
+      <class name="com.automation.v1.utilities.DropDownActions"/>
+      <class name="com.automation.v1.testscript.CheckBoxTest"/>
+      <class name="com.automation.v1.testscript.DropDownTest"/>
+      <class name="com.automation.v1.testscript.BaseAuthLinkTest"/>
+      <class name="com.automation.v1.testscript.TestScript"/>
+      <class name="com.automation.v1.testscript.AddRemoveElementTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="GridSuite" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="com.automation.v1.utilities.ListenerImplementation"/>
+        <listener class-name="com.automation.v1.utilities.ReportManager"/>
+    </listeners>
+
+    <!-- Chrome Test -->
+    <test name="ChromeTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="com.automation.v1.testscript.TestScript"/>
+            <class name="com.automation.v1.testscript.BaseAuthLinkTest"/>
+            <class name="com.automation.v1.testscript.AddRemoveElementTest"/>
+            <class name="com.automation.v1.testscript.DropDownTest"/>
+            <class name="com.automation.v1.testscript.CheckBoxTest"/>
+        </classes>
+    </test>
+
+   
+
+</suite>
