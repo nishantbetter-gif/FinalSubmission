@@ -1,9 +1,14 @@
 package com.automation.PageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
@@ -32,7 +37,13 @@ public class HomePage {
     WebElement AddElementLink;
 
     public void AddElementLinkClick() {
-        AddElementLink.click();
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+    	WebElement addRemoveLink = wait.until(
+    	        ExpectedConditions.visibilityOf(AddElementLink)
+    	        );
+
+    	addRemoveLink.click();
     }
 
     @FindBy(xpath="//a[@href='/dropdown']")

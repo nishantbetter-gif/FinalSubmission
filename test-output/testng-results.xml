@@ -2,29 +2,29 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-14T02:40:28 IST" name="GridSuite" finished-at="2026-03-14T02:41:36 IST" duration-ms="67952">
+  <suite started-at="2026-03-14T04:55:01 IST" name="GridSuite" finished-at="2026-03-14T04:55:59 IST" duration-ms="58397">
     <groups>
       <group name="Master">
-        <method signature="AddRemoveElementTest.testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@7817fd62]" name="testAddRemoveElements" class="com.automation.v1.testscript.AddRemoveElementTest"/>
-        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
-        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
+        <method signature="AddRemoveElementTest.testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@702657cc]" name="testAddRemoveElements" class="com.automation.v1.testscript.AddRemoveElementTest"/>
+        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
+        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
-        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
+        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
+        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
       </group> <!-- Sanity -->
       <group name="Master,Sanity,Regression">
-        <method signature="BaseAuthLinkTest.Test()[pri:0, instance:com.automation.v1.testscript.BaseAuthLinkTest@510f3d34]" name="Test" class="com.automation.v1.testscript.BaseAuthLinkTest"/>
+        <method signature="BaseAuthLinkTest.Test()[pri:0, instance:com.automation.v1.testscript.BaseAuthLinkTest@43bc63a3]" name="Test" class="com.automation.v1.testscript.BaseAuthLinkTest"/>
       </group> <!-- Master,Sanity,Regression -->
       <group name="Regression">
-        <method signature="AddRemoveElementTest.testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@7817fd62]" name="testAddRemoveElements" class="com.automation.v1.testscript.AddRemoveElementTest"/>
-        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
-        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
+        <method signature="AddRemoveElementTest.testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@702657cc]" name="testAddRemoveElements" class="com.automation.v1.testscript.AddRemoveElementTest"/>
+        <method signature="CheckBoxTest.testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" name="testCheckBox" class="com.automation.v1.testscript.CheckBoxTest"/>
+        <method signature="DropDownTest.testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" name="testDropDown" class="com.automation.v1.testscript.DropDownTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-03-14T02:40:28 IST" name="ChromeTest" finished-at="2026-03-14T02:41:36 IST" duration-ms="67952">
+    <test started-at="2026-03-14T04:55:01 IST" name="ChromeTest" finished-at="2026-03-14T04:55:59 IST" duration-ms="58397">
       <class name="com.automation.v1.testscript.CheckBoxTest">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" started-at="2026-03-14T02:41:18 IST" name="browserSetup" finished-at="2026-03-14T02:41:26 IST" duration-ms="7681" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" started-at="2026-03-14T04:55:44 IST" name="browserSetup" finished-at="2026-03-14T04:55:51 IST" duration-ms="6926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,23 +35,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" started-at="2026-03-14T02:41:26 IST" name="testCheckBox" description="CheckBox" finished-at="2026-03-14T02:41:34 IST" duration-ms="8250" status="PASS">
+        <test-method signature="testCheckBox()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" started-at="2026-03-14T04:55:51 IST" name="testCheckBox" description="CheckBox" finished-at="2026-03-14T04:55:59 IST" duration-ms="7662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckBox -->
-        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@2362f559]" started-at="2026-03-14T02:41:34 IST" name="KillBrowser" finished-at="2026-03-14T02:41:36 IST" duration-ms="1971" status="PASS">
+        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.CheckBoxTest@40a4337a]" started-at="2026-03-14T04:55:59 IST" name="KillBrowser" finished-at="2026-03-14T04:55:59 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- KillBrowser -->
       </class> <!-- com.automation.v1.testscript.CheckBoxTest -->
       <class name="com.automation.v1.testscript.BaseAuthLinkTest">
-        <test-method signature="Test()[pri:0, instance:com.automation.v1.testscript.BaseAuthLinkTest@510f3d34]" started-at="2026-03-14T02:40:39 IST" name="Test" description="auth Verification" finished-at="2026-03-14T02:40:48 IST" duration-ms="8433" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.automation.v1.testscript.BaseAuthLinkTest@43bc63a3]" started-at="2026-03-14T04:55:12 IST" name="Test" description="auth Verification" finished-at="2026-03-14T04:55:18 IST" duration-ms="6402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
       </class> <!-- com.automation.v1.testscript.BaseAuthLinkTest -->
       <class name="com.automation.v1.testscript.DropDownTest">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" started-at="2026-03-14T02:41:07 IST" name="browserSetup" finished-at="2026-03-14T02:41:13 IST" duration-ms="5216" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" started-at="2026-03-14T04:55:36 IST" name="browserSetup" finished-at="2026-03-14T04:55:42 IST" duration-ms="6064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,21 +62,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" started-at="2026-03-14T02:41:13 IST" name="testDropDown" description="DropDown Test" finished-at="2026-03-14T02:41:17 IST" duration-ms="4722" status="PASS">
+        <test-method signature="testDropDown()[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" started-at="2026-03-14T04:55:42 IST" name="testDropDown" description="DropDown Test" finished-at="2026-03-14T04:55:44 IST" duration-ms="1937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDropDown -->
-        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.DropDownTest@8297b3a]" started-at="2026-03-14T02:41:17 IST" name="KillBrowser" finished-at="2026-03-14T02:41:18 IST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.DropDownTest@6a6cb05c]" started-at="2026-03-14T04:55:44 IST" name="KillBrowser" finished-at="2026-03-14T04:55:44 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- KillBrowser -->
       </class> <!-- com.automation.v1.testscript.DropDownTest -->
       <class name="com.automation.v1.testscript.TestScript">
-        <test-method is-config="true" signature="ConfigSetup()[pri:0, instance:com.automation.v1.testscript.TestScript@279fedbd]" started-at="2026-03-14T02:40:28 IST" name="ConfigSetup" finished-at="2026-03-14T02:40:28 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="ConfigSetup()[pri:0, instance:com.automation.v1.testscript.TestScript@206a70ef]" started-at="2026-03-14T04:55:01 IST" name="ConfigSetup" finished-at="2026-03-14T04:55:01 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.TestScript@279fedbd]" started-at="2026-03-14T02:40:28 IST" name="browserSetup" finished-at="2026-03-14T02:40:37 IST" duration-ms="8711" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.TestScript@206a70ef]" started-at="2026-03-14T04:55:01 IST" name="browserSetup" finished-at="2026-03-14T04:55:10 IST" duration-ms="8754" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,17 +87,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="testBrokenLinks()[pri:0, instance:com.automation.v1.testscript.TestScript@279fedbd]" started-at="2026-03-14T02:40:37 IST" name="testBrokenLinks" finished-at="2026-03-14T02:40:39 IST" duration-ms="1896" status="PASS">
+        <test-method signature="testBrokenLinks()[pri:0, instance:com.automation.v1.testscript.TestScript@206a70ef]" started-at="2026-03-14T04:55:10 IST" name="testBrokenLinks" finished-at="2026-03-14T04:55:11 IST" duration-ms="1885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrokenLinks -->
-        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.TestScript@279fedbd]" started-at="2026-03-14T02:40:39 IST" name="KillBrowser" finished-at="2026-03-14T02:40:39 IST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.TestScript@206a70ef]" started-at="2026-03-14T04:55:11 IST" name="KillBrowser" finished-at="2026-03-14T04:55:12 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- KillBrowser -->
       </class> <!-- com.automation.v1.testscript.TestScript -->
       <class name="com.automation.v1.testscript.AddRemoveElementTest">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@7817fd62]" started-at="2026-03-14T02:40:48 IST" name="browserSetup" finished-at="2026-03-14T02:40:55 IST" duration-ms="7560" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@702657cc]" started-at="2026-03-14T04:55:18 IST" name="browserSetup" finished-at="2026-03-14T04:55:24 IST" duration-ms="6282" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@7817fd62]" started-at="2026-03-14T02:40:55 IST" name="testAddRemoveElements" description="Add Remove Elements" finished-at="2026-03-14T02:41:06 IST" duration-ms="11204" status="FAIL">
+        <test-method signature="testAddRemoveElements()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@702657cc]" started-at="2026-03-14T04:55:24 IST" name="testAddRemoveElements" description="Add Remove Elements" finished-at="2026-03-14T04:55:36 IST" duration-ms="11126" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/add_remove_elements/']"}
@@ -116,10 +116,10 @@
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [036a6e5f9b3a0cf53ee1b2eddc6c94c6, findElement {value=//a[@href='/add_remove_elements/'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Ashish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, goog:processID: 12072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.27:4444/sess..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 036a6e5f9b3a0cf53ee1b2eddc6c94c6]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a9b2eafe803b198f8bb13b213818ebe, findElement {using=xpath, value=//a[@href='/add_remove_elements/']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Ashish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57260}, goog:processID: 7564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57260/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a9b2eafe803b198f8bb13b213818ebe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/add_remove_elements/']"}
@@ -127,10 +127,10 @@ Session ID: 036a6e5f9b3a0cf53ee1b2eddc6c94c6]]>
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [036a6e5f9b3a0cf53ee1b2eddc6c94c6, findElement {value=//a[@href='/add_remove_elements/'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Ashish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, goog:processID: 12072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.27:4444/sess..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 036a6e5f9b3a0cf53ee1b2eddc6c94c6
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a9b2eafe803b198f8bb13b213818ebe, findElement {using=xpath, value=//a[@href='/add_remove_elements/']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\Ashish\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57260}, goog:processID: 7564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57260/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a9b2eafe803b198f8bb13b213818ebe
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -138,7 +138,8 @@ at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
@@ -175,7 +176,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddRemoveElements -->
-        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@7817fd62]" started-at="2026-03-14T02:41:07 IST" name="KillBrowser" finished-at="2026-03-14T02:41:07 IST" duration-ms="707" status="PASS">
+        <test-method is-config="true" signature="KillBrowser()[pri:0, instance:com.automation.v1.testscript.AddRemoveElementTest@702657cc]" started-at="2026-03-14T04:55:36 IST" name="KillBrowser" finished-at="2026-03-14T04:55:36 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- KillBrowser -->
